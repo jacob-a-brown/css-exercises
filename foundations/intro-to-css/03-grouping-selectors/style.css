@@ -1,5 +1,6 @@
 /* Add CSS Styling */
-.font-style{
+.first,
+.second{
     font-size:30px;
 }
 .first{
