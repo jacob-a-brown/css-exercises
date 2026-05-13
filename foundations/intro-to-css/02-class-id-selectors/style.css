@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+.orange-background {
+    background-color: rgb(255, 165, 0);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#number-1{
+    color: blue;
+    font-size: 36px;
+}
+#number-4{
+    background-color: green;
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+}
