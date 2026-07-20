@@ -1,0 +1,143 @@
+/* GENERAL */
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.hero{
+    background-color: #1F2937;
+}
+/* FIRST CONTAINER */
+.first{
+    display: flex;
+    justify-content: space-around;
+}
+.first-a{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.first-b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;;
+    width: 400px; 
+}
+/* SECOND CONTAINER */
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.second-a{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#second-a-p-title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+#second-a-p-content{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.second-a,.second-b{
+    width: 300px;
+}
+.second-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 200px
+}
+#second-a-button{
+    background-color: #3882F6;
+    color: white;
+}
+/* THIRD CONTAINTER */
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.third-a{
+    color: black;
+    font-weight: 900;
+}
+.third-b{
+    display: flex;
+    color: black;
+    font-size: 12px;
+    gap: 50px;
+}
+.third-b-1{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.third-b-blue{
+    border: 1px solid blue;
+    height: 100px;
+    width: 100px;
+}
+.third-b-text{
+    height: 100px;
+    width: 100px;
+}
+
+/* FOURTH CONTAINER */
+.fourth{
+    color: #1F2937;;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+.fourth-a{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    align-self: flex-start;
+}
+#quote-person{
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+/* FIFTH CONTAINER */
+.fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifth-a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    background-color: #3882F6;
+    margin: 20px;
+}
+#fifth-button{
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+}
+
+/* SIXTH CONTAINER */
+.sixth{
+    display: flex;
+    justify-content: center;
+}
